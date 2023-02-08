@@ -1,0 +1,15 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  min-width: 400px;
+
+  .contact {
+    list-style: inside;
+    &__delete-button {
+      margin-left: 15px;
+
+    }
+  }
+}

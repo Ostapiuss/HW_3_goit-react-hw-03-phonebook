@@ -1,0 +1,15 @@
+.form {
+  &__number {
+    margin-top: 20px;
+  }
+
+  &__number, &__name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__button {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+
+  &__search-field {
+    margin-top: 10px;
+    width: 150px;
+  }
+}
